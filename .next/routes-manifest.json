@@ -1,0 +1,254 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/[...catchall]",
+      "regex": "^/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcatchall": "nxtPcatchall"
+      },
+      "namedRegex": "^/(?<nxtPcatchall>.+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/cms/activity",
+      "regex": "^/cms/activity(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cms/activity(?:/)?$"
+    },
+    {
+      "page": "/cms/animal-population",
+      "regex": "^/cms/animal\\-population(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cms/animal\\-population(?:/)?$"
+    },
+    {
+      "page": "/cms/faqs",
+      "regex": "^/cms/faqs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cms/faqs(?:/)?$"
+    },
+    {
+      "page": "/cms/legal-document",
+      "regex": "^/cms/legal\\-document(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cms/legal\\-document(?:/)?$"
+    },
+    {
+      "page": "/cms/news",
+      "regex": "^/cms/news(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cms/news(?:/)?$"
+    },
+    {
+      "page": "/cms/static-content",
+      "regex": "^/cms/static\\-content(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cms/static\\-content(?:/)?$"
+    },
+    {
+      "page": "/kmis/dashboard",
+      "regex": "^/kmis/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kmis/dashboard(?:/)?$"
+    },
+    {
+      "page": "/kmis/educator",
+      "regex": "^/kmis/educator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kmis/educator(?:/)?$"
+    },
+    {
+      "page": "/kmis/learning-progress",
+      "regex": "^/kmis/learning\\-progress(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kmis/learning\\-progress(?:/)?$"
+    },
+    {
+      "page": "/kmis/material",
+      "regex": "^/kmis/material(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kmis/material(?:/)?$"
+    },
+    {
+      "page": "/kmis/quiz",
+      "regex": "^/kmis/quiz(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kmis/quiz(?:/)?$"
+    },
+    {
+      "page": "/kmis/student",
+      "regex": "^/kmis/student(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kmis/student(?:/)?$"
+    },
+    {
+      "page": "/kmis/topic",
+      "regex": "^/kmis/topic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kmis/topic(?:/)?$"
+    },
+    {
+      "page": "/maintenance",
+      "regex": "^/maintenance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/maintenance(?:/)?$"
+    },
+    {
+      "page": "/monev/agenda-calendar",
+      "regex": "^/monev/agenda\\-calendar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/monev/agenda\\-calendar(?:/)?$"
+    },
+    {
+      "page": "/monev/dashboard",
+      "regex": "^/monev/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/monev/dashboard(?:/)?$"
+    },
+    {
+      "page": "/monev/data-sharing",
+      "regex": "^/monev/data\\-sharing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/monev/data\\-sharing(?:/)?$"
+    },
+    {
+      "page": "/monev/monitoring",
+      "regex": "^/monev/monitoring(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/monev/monitoring(?:/)?$"
+    },
+    {
+      "page": "/monev/package-information",
+      "regex": "^/monev/package\\-information(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/monev/package\\-information(?:/)?$"
+    },
+    {
+      "page": "/settings",
+      "regex": "^/settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings(?:/)?$"
+    },
+    {
+      "page": "/settings/activity-category",
+      "regex": "^/settings/activity\\-category(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/activity\\-category(?:/)?$"
+    },
+    {
+      "page": "/settings/agenda-category",
+      "regex": "^/settings/agenda\\-category(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/agenda\\-category(?:/)?$"
+    },
+    {
+      "page": "/settings/animal-category",
+      "regex": "^/settings/animal\\-category(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/animal\\-category(?:/)?$"
+    },
+    {
+      "page": "/settings/display",
+      "regex": "^/settings/display(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/display(?:/)?$"
+    },
+    {
+      "page": "/settings/monev-dashboard",
+      "regex": "^/settings/monev\\-dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/monev\\-dashboard(?:/)?$"
+    },
+    {
+      "page": "/settings/news-category",
+      "regex": "^/settings/news\\-category(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/news\\-category(?:/)?$"
+    },
+    {
+      "page": "/settings/permissions",
+      "regex": "^/settings/permissions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/permissions(?:/)?$"
+    },
+    {
+      "page": "/settings/pic-assignment",
+      "regex": "^/settings/pic\\-assignment(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/pic\\-assignment(?:/)?$"
+    },
+    {
+      "page": "/settings/pic-division",
+      "regex": "^/settings/pic\\-division(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/pic\\-division(?:/)?$"
+    },
+    {
+      "page": "/settings/profile",
+      "regex": "^/settings/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/profile(?:/)?$"
+    },
+    {
+      "page": "/settings/regional",
+      "regex": "^/settings/regional(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/regional(?:/)?$"
+    },
+    {
+      "page": "/settings/topic-category",
+      "regex": "^/settings/topic\\-category(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/topic\\-category(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
