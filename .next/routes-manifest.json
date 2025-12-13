@@ -2,8 +2,16 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "",
+  "basePath": "/kmis",
   "redirects": [
+    {
+      "source": "/kmis/",
+      "destination": "/kmis",
+      "basePath": false,
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^/kmis/$"
+    },
     {
       "source": "/:path+/",
       "destination": "/:path+",
