@@ -194,6 +194,12 @@
       "namedRegex": "^/settings/display(?:/)?$"
     },
     {
+      "page": "/settings/legal-docs-category",
+      "regex": "^/settings/legal\\-docs\\-category(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings/legal\\-docs\\-category(?:/)?$"
+    },
+    {
       "page": "/settings/monev-dashboard",
       "regex": "^/settings/monev\\-dashboard(?:/)?$",
       "routeKeys": {},
